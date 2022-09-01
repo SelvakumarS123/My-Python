@@ -1,0 +1,13 @@
+a = (1,"hello",2,2,2)
+print(a[1])
+print(a[0:2])
+b = (3, "world", 4)
+print(a + b)
+print(4 in b)
+print(a==b)
+print(a.index(1))
+print(a.count(2))
+print(len(a))
+print(min(a))
+print(max(a))
+# tuples are immutable so they can be used in dictionaries
